@@ -23,6 +23,7 @@ RUN apk --update add \
   php-xmlreader \
   curl \
   supervisor \
+  git \
   && rm -rf /var/cache/apk/*
 
 # install composer
